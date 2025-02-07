@@ -1,0 +1,26 @@
+{
+  "hosting": [
+    {
+      "site": "portfolio-921b3",
+      "public": "dist",  
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "customDomain": "ryanhaire.ca"
+    },
+    {
+      "site": "codingtutorials-ryanhaire-ca",
+      "public": "tutorials/dist",  
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "customDomain": "codingtutorials.ryanhaire.ca"
+    }
+  ]
+}
