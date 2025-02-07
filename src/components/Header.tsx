@@ -15,7 +15,8 @@ export const Header = () => {
           <nav>
             <ul className="flex space-x-8">
                 <li><Link to="/" className="hover:text-[#AF5C5B] transition">Home</Link></li>
-              <li><Link to="/portfolio" className="hover:text-[#AF5C5B] transition">Portfolio</Link></li>
+                {/* <li><Link to="/portfolio" className="hover:text-[#AF5C5B] transition">Portfolio</Link></li> */}
+                <li><Link to="https://codingtutorials.ryanhaire.ca" className="hover:text-[#AF5C5B] transition">Coding Tutorials</Link></li>
             </ul>
           </nav>
         </div>

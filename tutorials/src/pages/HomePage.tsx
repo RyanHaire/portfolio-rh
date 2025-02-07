@@ -1,7 +1,10 @@
+import TutorialPost from "../components/TutorialPost"
+import intro from '../tutorials/intro.md'
+
 export const HomePage  = () => {
     return(
-        <>
-            <h1>Home Page</h1>
-        </>
+        <section className="p-10">
+            <TutorialPost title="" content={intro}/>
+        </section>
     )
 }

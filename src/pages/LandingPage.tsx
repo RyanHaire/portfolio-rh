@@ -62,8 +62,6 @@ function LandingPage() {
       {/* Small Business Tier */}
       <div className="bg-white shadow-lg rounded-lg p-6 transform hover:scale-105 transition-all">
         <h3 className="text-2xl font-semibold mb-4">Small Business Plan</h3>
-        <p className="text-lg mb-4">Cost: <span className="text-teal-500">$1,500 CAD</span></p>
-        <p className="text-lg mb-4">Maintenance: <span className="text-teal-500">$250 CAD/month</span></p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">What's Included:</h4>
         <ul className="space-y-2 text-left text-sm mb-4">
@@ -84,9 +82,7 @@ function LandingPage() {
 
       {/* Bigger Business Tier */}
       <div className="bg-white shadow-lg rounded-lg p-6 transform hover:scale-105 transition-all">
-        <h3 className="text-2xl font-semibold mb-4">Bigger Business Plan</h3>
-        <p className="text-lg mb-4">Cost: <span className="text-teal-500">$4,500 CAD</span></p>
-        <p className="text-lg mb-4">Maintenance: <span className="text-teal-500">$500 CAD/month</span></p>
+        <h3 className="text-2xl font-semibold mb-4">Medium Business Plan</h3>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">What's Included:</h4>
         <ul className="space-y-2 text-left text-sm mb-4">

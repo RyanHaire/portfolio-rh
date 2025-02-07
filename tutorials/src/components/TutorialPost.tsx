@@ -2,18 +2,17 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 
 // Define the props interface
-interface TutorialProps {
+interface TutorialPostProps {
   title: string;
   content: string;
 }
 
-const Tutorial: React.FC<TutorialProps> = ({ title, content }) => {
+const TutorialPost: React.FC<TutorialPostProps> = ({ title, content }) => {
   return (
     <div className="tutorial">
-      <h1>{title}</h1>
       <ReactMarkdown>{content}</ReactMarkdown>
     </div>
   );
 };
 
-export default Tutorial;
+export default TutorialPost;
