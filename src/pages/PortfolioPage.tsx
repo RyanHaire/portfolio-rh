@@ -1,5 +1,7 @@
-
-
+import { Link } from 'react-router-dom';
+import gamestogo from '../assets/gamestogo-ss.png'
+import sati from '../assets/sati.today-ss.png'
+import codingtutorials from '../assets/coding-tutorials-ryan-h-ss.png'
 const PortfolioPage = () => {
   return (
     <div>
@@ -8,7 +10,7 @@ const PortfolioPage = () => {
         <div className="container mx-auto text-center px-4">
           <h1 className="text-4xl font-semibold mb-4">My Portfolio</h1>
           <p className="text-lg mb-12">
-            Check out some of the websites I’ve built for my clients. From eCommerce to creative platforms, I can help you bring your idea to life.
+            Check out some of the websites I’ve built.
           </p>
         </div>
       </section>
@@ -22,48 +24,47 @@ const PortfolioPage = () => {
             {/* GameStopGo Project */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://via.placeholder.com/600x400?text=GameStopGo+Screenshot"
+                src={gamestogo}
                 alt="GamesToGo Screenshot"
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">GamesToGo.ca</h3>
                 <p className="text-gray-600 mb-4">
-                  A user-friendly birthday party service website for gaming products, offering an easy-to-navigate interface.
+                  A user-friendly birthday party service website for gaming, offering an easy-to-navigate interface.
                 </p>
-                <p className="text-sm text-gray-500">Click below to view the full website design and features.</p>
               </div>
             </div>
 
             {/* IdeaClub Project */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://via.placeholder.com/600x400?text=IdeaClub+Screenshot"
-                alt="IdeaClub Screenshot"
+                src={sati}
+                alt="Sati Today Screenshot"
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">IdeaClub.online</h3>
+                <h3 className="text-xl font-semibold mb-2">Sati.today</h3>
                 <p className="text-gray-600 mb-4">
-                  An innovative platform for brainstorming and collaborating on ideas, featuring interactive tools and modern design.
+                 A marketing website for a mobile app called Sati. A clean and slick landing page with beta signup feature.
                 </p>
-                <p className="text-sm text-gray-500">Click below to view the full website design and features.</p>
+                <Link to="https://sati.today">https://sati.today</Link>
               </div>
             </div>
 
-            {/* Add more projects here */}
+            {/* IdeaClub Project */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://via.placeholder.com/600x400?text=Project+3+Screenshot"
-                alt="Project 3 Screenshot"
+                src={codingtutorials}
+                alt="Coding Tutorials by Ryan Haire Screenshot"
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Project 3</h3>
+                <h3 className="text-xl font-semibold mb-2">Coding Tutorials by Ryan Haire</h3>
                 <p className="text-gray-600 mb-4">
-                  A description of a project that you have worked on. Include what makes this project unique and why you are proud of it.
+                 A personal website for publishing coding tutorials for web apps to help coding newbies. 
                 </p>
-                <p className="text-sm text-gray-500">Click below to view the full website design and features.</p>
+                <Link to="https://codingtutorials.ryanhaire.ca">https://codingtutorials.ryanhaire.ca</Link>
               </div>
             </div>
           </div>
