@@ -48,3 +48,61 @@
   border-radius: 8px;
   overflow-x: auto;
 }
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.tutorial ol {
+  list-style-type: decimal; /* Ensures numbers are displayed */
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.tutorial ol li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.tutorial ol li::marker {
+  font-weight: bold;
+  color: black; /* Change to your primary color */
+}
+
+.tutorial a {
+  color: #007bff;
+}
+
+
+.tutorial ul {
+  list-style-type: disc; /* Show bullets */
+}
+
+.tutorial ul li {
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #666;
+}

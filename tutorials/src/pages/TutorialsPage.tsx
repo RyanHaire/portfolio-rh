@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom"
+import RecentPostsGrid from "../components/RecentPostsGrid"
 
 export const TutorialsPage  = () => {
     return(
-        <>
-            <h1>
-                <Link to="tutorial-1">Intro</Link>
-            </h1>
-        </>
+        <section>
+            <RecentPostsGrid/>
+        </section>
     )
 }
